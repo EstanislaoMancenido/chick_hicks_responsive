@@ -1,0 +1,1339 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Racing+Sans+One&family=Righteous&family=Shrikhand&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#abc{
+font-family: 'Faster One', cursive;
+font-family: 'Racing Sans One', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Shrikhand', cursive;
+}
+
+body{
+	background-color: black;
+}
+
+main{
+	border: 6px solid green;
+	width: 90%;
+	width: 1300px;
+	max-width: 1300px;
+	height: 780px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(fondo11.jpg);
+}
+
+header{
+	width: 100%;
+	max-width: 1300px;
+	height: 200px;
+	background-color: #5EE46C;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(foto11.jpg);
+}
+
+#titulo1{
+	font-family: 'Righteous', cursive;
+	float: right;
+	font-size: 80px;
+	color: white;
+	margin-right: 25px;
+	text-shadow: -3px 3px 2px #5EE46C,-4px 4px 2px #5EE46C, -5px 5px 2px #5EE46C,-6px 6px 2px #5EE46C, -7px 7px 2px #5EE46C,-8px 8px 2px #5EE46C, -9px 9px 2px #5EE46C,-10px 10px 2px #5EE46C, -11px 11px 2px #5EE46C;
+    -webkit-text-stroke: 3px black;
+    -webkit-shadow-stroke: 5px black;
+}
+
+#section1{
+  width: 95%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#texto1{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 15px;
+    column-rule-color: black;
+    column-rule-width: 2px;
+    column-rule-style: dashed;
+    columns: 3;
+    column-gap: 40px;
+    text-align: justify;
+}
+
+#fotos{
+	float: right;
+	margin-right: 5.5%;
+	margin-top: 15px;
+}
+
+#chick1{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-right: 76px;
+}
+
+#chick2{
+	border-radius: 5px;
+	border: 4px solid black;
+}
+
+#chick3{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-left: 75px;
+}
+
+#texto11{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 15px;
+    column-rule-color: black;
+    column-rule-width: 2px;
+    column-rule-style: dashed;
+    columns: 3;
+    column-gap: 40px;
+    text-align: justify;
+    float: right;
+    margin-top: 15px;
+}
+
+#footer1{
+    background-color: #54D861;
+    height: 50px;
+    margin-top: -184px;
+}
+
+#nombre{
+    font-family: 'Shrikhand', cursive;
+}
+
+#link{
+	text-decoration: none;
+    color: black;
+}
+
+#mancenido{
+	margin-left: 42%;
+	position: relative; top: 11px;
+}
+
+#sombra1{
+	box-shadow: inset 0px 0px 40px #636e72,
+                      0px 0px 40px #dfe6e9;
+}
+
+#logo{
+	float: right;
+	margin-top: -18px;
+	margin-right: 4px;
+}
+
+
+
+
+
+
+
+/*TAMAÑO TELÉFONO*/
+/*TAMAÑO TELÉFONO*/
+/*TAMAÑO TELÉFONO*/
+
+@media (min-width: 576px) and (max-width: 767px) 
+{
+
+body{
+	background-color: black;
+}
+
+main{
+	border: 6px solid green;
+	width: 90%;
+	max-width: 767px;
+	height: 1400px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(fondo12.jpg);
+}
+
+header{
+	width: 100%;
+	max-width: 767px;
+	height: 130px;
+	background-color: #5EE46C;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(foto1.jpg);
+	background-image: no-repeat;
+}
+
+footer{
+	width: 100%;
+	max-width: 767px;
+	height: 60px;
+}
+
+#titulo1{
+	font-family: 'Righteous', cursive;
+	float: right;
+	font-size: 50px;
+	color: white;
+	margin-right: 10px;
+	text-shadow: -3px 3px 2px #5EE46C,-4px 4px 2px #5EE46C, -5px 5px 2px #5EE46C,-6px 6px 2px #5EE46C, -7px 7px 2px #5EE46C,-8px 8px 2px #5EE46C, -9px 9px 2px #5EE46C,-10px 10px 2px #5EE46C, -11px 11px 2px #5EE46C;
+    -webkit-text-stroke: 2px black;
+    -webkit-shadow-stroke: 5px black;
+}
+
+#section1{
+  width: 95%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#texto1{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 13px;
+    text-align: justify;
+    column-count: 1;
+    columns: 1;
+}
+
+#fotos{
+	float: right;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#chick1{
+	border-radius: 5px;
+	border: 4px solid black;
+	float: right;
+	margin-right: 45px;
+
+}
+
+#chick2{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-top: 10px;
+	float: left;
+	margin-left: 40px;
+
+}
+
+#chick3{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-top: 10px;
+	float: right;
+	margin-right: 45px;
+
+}
+
+#texto11{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 13px;
+    text-align: justify;
+    float: right;
+    margin-top: 15px;
+    column-count: 1;
+    columns: 1;
+}
+
+#footer1{
+    background-color: #54D861;
+    height: 45px;
+}
+
+#nombre{
+    font-family: 'Shrikhand', cursive;
+}
+
+#link{
+	text-decoration: none;
+    color: black;
+}
+
+#mancenido{
+	position: relative; top: 14px;
+	font-size: 10px;
+	margin-left: 6px;
+}
+
+#sombra1{
+	box-shadow: inset 0px 0px 40px #636e72,
+                      0px 0px 40px #dfe6e9;
+}
+
+#logo{
+	float: right;
+	margin-right: 4px;
+	margin-top: -11.5px;
+	margin-bottom: 5px;
+}
+}
+
+
+
+
+
+
+/*TAMAÑO TABLET1*/
+/*TAMAÑO TABLET1*/
+/*TAMAÑO TABLET1*/
+@media (min-width: 767px) and (max-width: 831px) {
+body{
+	background-color: black;
+}
+
+main{
+	border: 6px solid green;
+	width: 90%;
+	max-width: 831px;
+	height: 1500px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(fondo13.jpg);
+}
+
+header{
+	width: 100%;
+	max-width: 831px;
+	height: 175px;
+	background-color: #5EE46C;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(foto21.jpg);
+	background-image: no-repeat;
+}
+
+footer{
+	width: 100%;
+	max-width: 831px;
+	height: 60px;
+}
+
+#titulo1{
+	font-family: 'Righteous', cursive;
+	float: right;
+	font-size: 70px;
+	color: white;
+	margin-right: 10px;
+	margin-top: 1px;
+	text-shadow: -3px 3px 2px #5EE46C,-4px 4px 2px #5EE46C, -5px 5px 2px #5EE46C,-6px 6px 2px #5EE46C, -7px 7px 2px #5EE46C,-8px 8px 2px #5EE46C, -9px 9px 2px #5EE46C,-10px 10px 2px #5EE46C, -11px 11px 2px #5EE46C;
+    -webkit-text-stroke: 2px black;
+    -webkit-shadow-stroke: 5px black;
+}
+
+#section1{
+  width: 95%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#texto1{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 15px;
+    text-align: justify;
+    column-count: 1;
+    columns: 1;
+}
+
+#fotos{
+	float: right;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#chick1{
+	border-radius: 5px;
+	border: 4px solid black;
+	float: right;
+	margin-right: 45px;
+
+}
+
+#chick2{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-top: 10px;
+	float: left;
+	margin-left: 40px;
+
+}
+
+#chick3{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-top: 10px;
+	float: right;
+	margin-right: 45px;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#texto11{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 15px;
+    text-align: justify;
+    float: right;
+    margin-top: 15px;
+    column-count: 1;
+    columns: 1;
+}
+
+#footer1{
+    background-color: #54D861;
+    height: 45px;
+    max-width: 820px;
+    margin-top: -229px;
+}
+
+#nombre{
+    font-family: 'Shrikhand', cursive;
+}
+
+#link{
+	text-decoration: none;
+    color: black;
+}
+
+#mancenido{
+	position: relative; top: 14px;
+	font-size: 12px;
+	margin-left: 6px;
+}
+
+#sombra1{
+	box-shadow: inset 0px 0px 40px #636e72,
+                      0px 0px 40px #dfe6e9;
+}
+
+#logo{
+	float: right;
+	margin-right: 4px;
+	margin-top: -11.5px;
+	margin-bottom: 5px;
+}
+
+#columnas22{
+    column-rule-color: #5EE46C;
+    column-rule-width: 2px;
+    column-rule-style: solid;
+    columns: 3;
+    column-gap: 1px;
+}
+}
+
+
+
+
+
+
+
+
+
+/*TAMAÑO TABLET2*/
+/*TAMAÑO TABLET2*/
+/*TAMAÑO TABLET2*/
+@media (min-width: 831px) and (max-width: 844px) {
+body{
+	background-color: black;
+}
+
+main{
+	border: 6px solid green;
+	width: 90%;
+	max-width: 991px;
+	height: 1500px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(fondo13.jpg);
+}
+
+header{
+	width: 100%;
+	max-width: 991px;
+	height: 175px;
+	background-color: #5EE46C;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(foto21.jpg);
+	background-image: no-repeat;
+}
+
+footer{
+	width: 100%;
+	max-width: 991px;
+	height: 60px;
+}
+
+#titulo1{
+	font-family: 'Righteous', cursive;
+	float: right;
+	font-size: 70px;
+	color: white;
+	margin-right: 10px;
+	margin-top: 1px;
+	text-shadow: -3px 3px 2px #5EE46C,-4px 4px 2px #5EE46C, -5px 5px 2px #5EE46C,-6px 6px 2px #5EE46C, -7px 7px 2px #5EE46C,-8px 8px 2px #5EE46C, -9px 9px 2px #5EE46C,-10px 10px 2px #5EE46C, -11px 11px 2px #5EE46C;
+    -webkit-text-stroke: 2px black;
+    -webkit-shadow-stroke: 5px black;
+}
+
+#section1{
+  width: 95%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#texto1{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 15px;
+    text-align: justify;
+    column-count: 1;
+    columns: 1;
+}
+
+#fotos{
+	float: right;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#chick1{
+	border-radius: 5px;
+	border: 4px solid black;
+	float: right;
+	margin-right: 45px;
+	margin-left: 10px;
+
+}
+
+#chick2{
+	border-radius: 5px;
+	border: 4px solid black;
+	float: left;
+	margin-left: 40px;
+
+}
+
+#chick3{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-top: 10px;
+	float: right;
+	margin-right: 45px;
+	margin-left: 10px;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#texto11{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 15px;
+    text-align: justify;
+    float: right;
+    margin-top: 15px;
+    column-count: 1;
+    columns: 1;
+}
+
+#footer1{
+    background-color: #54D861;
+    height: 45px;
+    max-width: 991px;
+    margin-top: -229px;
+}
+
+#nombre{
+    font-family: 'Shrikhand', cursive;
+}
+
+#link{
+	text-decoration: none;
+    color: black;
+}
+
+#mancenido{
+	position: relative; top: 14px;
+	font-size: 12px;
+	margin-left: 6px;
+}
+
+#sombra1{
+	box-shadow: inset 0px 0px 40px #636e72,
+                      0px 0px 40px #dfe6e9;
+}
+
+#logo{
+	float: right;
+	margin-right: 4px;
+	margin-top: -11.5px;
+	margin-bottom: 5px;
+}
+
+#columnas22{
+    column-rule-color: #5EE46C;
+    column-rule-width: 2px;
+    column-rule-style: solid;
+    columns: 3;
+    column-gap: 1px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+/*TAMAÑO TABLET3*/
+/*TAMAÑO TABLET3*/
+/*TAMAÑO TABLET3*/
+@media (min-width: 844px) and (max-width: 991px) {
+body{
+	background-color: black;
+}
+
+main{
+	border: 6px solid green;
+	width: 90%;
+	max-width: 991px;
+	height: 1300px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(fondo13.jpg);
+}
+
+header{
+	width: 100%;
+	max-width: 991px;
+	height: 175px;
+	background-color: #5EE46C;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(foto21.jpg);
+	background-image: no-repeat;
+}
+
+footer{
+	width: 100%;
+	max-width: 991px;
+	height: 60px;
+}
+
+#titulo1{
+	font-family: 'Righteous', cursive;
+	float: right;
+	font-size: 70px;
+	color: white;
+	margin-right: 10px;
+	margin-top: 1px;
+	text-shadow: -3px 3px 2px #5EE46C,-4px 4px 2px #5EE46C, -5px 5px 2px #5EE46C,-6px 6px 2px #5EE46C, -7px 7px 2px #5EE46C,-8px 8px 2px #5EE46C, -9px 9px 2px #5EE46C,-10px 10px 2px #5EE46C, -11px 11px 2px #5EE46C;
+    -webkit-text-stroke: 2px black;
+    -webkit-shadow-stroke: 5px black;
+}
+
+#section1{
+  width: 95%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#texto1{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 15px;
+    text-align: justify;
+    column-count: 1;
+    columns: 1;
+}
+
+#fotos{
+	float: right;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#chick1{
+	border-radius: 5px;
+	border: 4px solid black;
+	float: right;
+	margin-right: 45px;
+	margin-left: 10px;
+
+}
+
+#chick2{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-top: 71px;
+	float: left;
+	margin-left: 40px;
+
+}
+
+#chick3{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-top: 10px;
+	float: right;
+	margin-right: 45px;
+	margin-left: 10px;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#texto11{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 15px;
+    text-align: justify;
+    float: right;
+    margin-top: 15px;
+    column-count: 1;
+    columns: 1;
+}
+
+#footer1{
+    background-color: #54D861;
+    height: 45px;
+    max-width: 991px;
+    margin-top: -229px;
+}
+
+#nombre{
+    font-family: 'Shrikhand', cursive;
+}
+
+#link{
+	text-decoration: none;
+    color: black;
+}
+
+#mancenido{
+	position: relative; top: 14px;
+	font-size: 12px;
+	margin-left: 6px;
+}
+
+#sombra1{
+	box-shadow: inset 0px 0px 40px #636e72,
+                      0px 0px 40px #dfe6e9;
+}
+
+#logo{
+	float: right;
+	margin-right: 4px;
+	margin-top: -11.5px;
+	margin-bottom: 5px;
+}
+
+#columnas22{
+    column-rule-color: #5EE46C;
+    column-rule-width: 2px;
+    column-rule-style: solid;
+    columns: 3;
+    column-gap: 1px;
+}
+}
+
+
+
+
+
+
+
+
+/*TAMAÑO L*/
+/*TAMAÑO L*/
+/*TAMAÑO L*/
+@media (min-width: 991px) and (max-width: 1165px){
+body{
+	background-color: black;
+}
+
+main{
+	border: 6px solid green;
+	width: 90%;
+	max-width: 1199px;
+	height: 1370px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(fondo11.jpg);
+}
+
+header{
+	width: 100%;
+	max-width: 1199px;
+	height: 200px;
+	background-color: #5EE46C;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(foto11.jpg);
+}
+
+#titulo1{
+	font-family: 'Righteous', cursive;
+	float: right;
+	font-size: 80px;
+	color: white;
+	margin-right: 25px;
+	text-shadow: -3px 3px 2px #5EE46C,-4px 4px 2px #5EE46C, -5px 5px 2px #5EE46C,-6px 6px 2px #5EE46C, -7px 7px 2px #5EE46C,-8px 8px 2px #5EE46C, -9px 9px 2px #5EE46C,-10px 10px 2px #5EE46C, -11px 11px 2px #5EE46C;
+    -webkit-text-stroke: 3px black;
+    -webkit-shadow-stroke: 5px black;
+}
+
+#section1{
+  width: 95%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#texto1{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 15px;
+    column-rule-color: black;
+    column-rule-width: 2px;
+    column-rule-style: dashed;
+    columns: 3;
+    column-gap: 40px;
+    text-align: justify;
+}
+
+#fotos{
+	float: right;
+	margin-right: 5.5%;
+	margin-top: 15px;
+}
+
+#chick1{
+	border-radius: 5px;
+	border: 4px solid black;
+	float: right;
+	margin-right: 45px;
+	margin-left: 10px;
+
+}
+
+#chick2{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-top: 71px;
+	float: left;
+	margin-left: 40px;
+
+}
+
+#chick3{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-top: 10px;
+	float: right;
+	margin-right: 45px;
+	margin-left: 10px;
+
+}
+
+#texto11{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 17px;
+    text-align: justify;
+    float: right;
+    margin-top: 15px;
+    column-count: 1;
+    columns: 1;
+    text-align: justify;
+    float: right;
+    margin-top: 15px;
+}
+
+#footer1{
+    background-color: #54D861;
+    height: 50px;
+    margin-top: -124px;
+}
+
+#nombre{
+    font-family: 'Shrikhand', cursive;
+}
+
+#link{
+	text-decoration: none;
+    color: black;
+}
+
+#mancenido{
+	margin-left: 42%;
+	position: relative; top: 11px;
+}
+
+#sombra1{
+	box-shadow: inset 0px 0px 40px #636e72,
+                      0px 0px 40px #dfe6e9;
+}
+
+#logo{
+	float: right;
+	margin-top: -18px;
+	margin-right: 4px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+/*TAMAÑO L2*/
+/*TAMAÑO L2*/
+/*TAMAÑO L2*/
+@media (min-width: 1165px) and (max-width: 1199px){
+body{
+	background-color: black;
+}
+
+main{
+	border: 6px solid green;
+	width: 90%;
+	max-width: 1199px;
+	height: 1150px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(fondo11.jpg);
+}
+
+header{
+	width: 100%;
+	max-width: 1199px;
+	height: 200px;
+	background-color: #5EE46C;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(foto11.jpg);
+}
+
+#titulo1{
+	font-family: 'Righteous', cursive;
+	float: right;
+	font-size: 80px;
+	color: white;
+	margin-right: 25px;
+	text-shadow: -3px 3px 2px #5EE46C,-4px 4px 2px #5EE46C, -5px 5px 2px #5EE46C,-6px 6px 2px #5EE46C, -7px 7px 2px #5EE46C,-8px 8px 2px #5EE46C, -9px 9px 2px #5EE46C,-10px 10px 2px #5EE46C, -11px 11px 2px #5EE46C;
+    -webkit-text-stroke: 3px black;
+    -webkit-shadow-stroke: 5px black;
+}
+
+#section1{
+  width: 95%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#texto1{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 15px;
+    column-rule-color: black;
+    column-rule-width: 2px;
+    column-rule-style: dashed;
+    columns: 3;
+    column-gap: 40px;
+    text-align: justify;
+}
+
+#fotos{
+	float: right;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+#chick1{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-right: 16px;
+}
+
+#chick2{
+	border-radius: 5px;
+	border: 4px solid black;
+}
+
+#chick3{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-left: 15px;
+}
+
+#texto11{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 17px;
+    text-align: justify;
+    float: right;
+    margin-top: 15px;
+    column-count: 1;
+    columns: 1;
+    text-align: justify;
+    float: right;
+    margin-top: 15px;
+}
+
+#footer1{
+    background-color: #54D861;
+    height: 50px;
+    margin-top: -145px;
+}
+
+#nombre{
+    font-family: 'Shrikhand', cursive;
+}
+
+#link{
+	text-decoration: none;
+    color: black;
+}
+
+#mancenido{
+	margin-left: 42%;
+	position: relative; top: 11px;
+}
+
+#sombra1{
+	box-shadow: inset 0px 0px 40px #636e72,
+                      0px 0px 40px #dfe6e9;
+}
+
+#logo{
+	float: right;
+	margin-top: -18px;
+	margin-right: 4px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+/*TAMAÑO XL*/
+/*TAMAÑO XL*/
+/*TAMAÑO XL*/
+@media (min-width: 1199px) and (max-width: 1399px){
+body{
+	background-color: black;
+}
+
+main{
+	border: 6px solid green;
+	width: 90%;
+	max-width: 1399px;
+	height: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(fondo11.jpg);
+}
+
+header{
+	width: 100%;
+	max-width: 1399px;
+	height: 200px;
+	background-color: #5EE46C;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(foto11.jpg);
+}
+
+#titulo1{
+	font-family: 'Righteous', cursive;
+	float: right;
+	font-size: 80px;
+	color: white;
+	margin-right: 25px;
+	text-shadow: -3px 3px 2px #5EE46C,-4px 4px 2px #5EE46C, -5px 5px 2px #5EE46C,-6px 6px 2px #5EE46C, -7px 7px 2px #5EE46C,-8px 8px 2px #5EE46C, -9px 9px 2px #5EE46C,-10px 10px 2px #5EE46C, -11px 11px 2px #5EE46C;
+    -webkit-text-stroke: 3px black;
+    -webkit-shadow-stroke: 5px black;
+}
+
+#section1{
+  width: 95%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#texto1{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 17px;
+    column-rule-color: black;
+    column-rule-width: 2px;
+    column-rule-style: dashed;
+    columns: 3;
+    column-gap: 40px;
+    text-align: justify;
+}
+
+#fotos{
+	float: right;
+	margin-right: 3%;
+	margin-left: 3%;
+	margin-top: 15px;
+}
+
+#chick1{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-right: 10px;
+	float: left;
+}
+
+#chick2{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#chick3{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-left: 10px;
+}
+
+#texto11{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 17px;
+    column-rule-color: black;
+    column-rule-width: 2px;
+    column-rule-style: dashed;
+    columns: 3;
+    column-gap: 40px;
+    text-align: justify;
+    float: right;
+    margin-top: 15px;
+}
+
+#footer1{
+    background-color: #54D861;
+    height: 50px;
+    margin-top: -161px;
+}
+
+#nombre{
+    font-family: 'Shrikhand', cursive;
+}
+
+#link{
+	text-decoration: none;
+    color: black;
+}
+
+#mancenido{
+	margin-left: 42%;
+	position: relative; top: 11px;
+}
+
+#sombra1{
+	box-shadow: inset 0px 0px 40px #636e72,
+                      0px 0px 40px #dfe6e9;
+}
+
+#logo{
+	float: right;
+	margin-top: -18px;
+	margin-right: 4px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+/*TAMAÑO XXL*/
+/*TAMAÑO XXL*/
+/*TAMAÑO XXL*/
+@media (min-width: 1400px){
+body{
+	background-color: black;
+}
+
+main{
+	border: 6px solid green;
+	width: 90%;
+	width: 1400px;
+	height: 1020px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(fondo11.jpg);
+}
+
+header{
+	width: 100%;
+	max-width: 1300px;
+	height: 200px;
+	background-color: #5EE46C;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(foto11.jpg);
+}
+
+#titulo1{
+	font-family: 'Righteous', cursive;
+	float: right;
+	font-size: 80px;
+	color: white;
+	margin-right: 25px;
+	text-shadow: -3px 3px 2px #5EE46C,-4px 4px 2px #5EE46C, -5px 5px 2px #5EE46C,-6px 6px 2px #5EE46C, -7px 7px 2px #5EE46C,-8px 8px 2px #5EE46C, -9px 9px 2px #5EE46C,-10px 10px 2px #5EE46C, -11px 11px 2px #5EE46C;
+    -webkit-text-stroke: 3px black;
+    -webkit-shadow-stroke: 5px black;
+}
+
+#section1{
+  width: 95%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#texto1{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 19px;
+    column-rule-color: black;
+    column-rule-width: 2px;
+    column-rule-style: dashed;
+    columns: 3;
+    column-gap: 40px;
+    text-align: justify;
+}
+
+#fotos{
+	float: right;
+	margin-right: 5.5%;
+	margin-top: 15px;
+}
+
+#chick1{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-right: 76px;
+}
+
+#chick2{
+	border-radius: 5px;
+	border: 4px solid black;
+}
+
+#chick3{
+	border-radius: 5px;
+	border: 4px solid black;
+	margin-left: 75px;
+}
+
+#texto11{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 19px;
+    column-rule-color: black;
+    column-rule-width: 2px;
+    column-rule-style: dashed;
+    columns: 3;
+    column-gap: 40px;
+    text-align: justify;
+    float: right;
+    margin-top: 15px;
+}
+
+#footer1{
+    background-color: #54D861;
+    height: 50px;
+    margin-top: -160px;
+}
+
+#nombre{
+    font-family: 'Shrikhand', cursive;
+}
+
+#link{
+	text-decoration: none;
+    color: black;
+}
+
+#mancenido{
+	margin-left: 42%;
+	position: relative; top: 11px;
+}
+
+#sombra1{
+	box-shadow: inset 0px 0px 40px #636e72,
+                      0px 0px 40px #dfe6e9;
+}
+
+#logo{
+	float: right;
+	margin-top: -18px;
+	margin-right: 4px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+}
